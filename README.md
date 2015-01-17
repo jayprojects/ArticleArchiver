@@ -5,6 +5,12 @@ This is a library for extracting online news article. It parse Title, author, da
 
 it was written to work for all website regardless of structures. 
 
+Demo
+===================
+A demo is available here 
+http://syskite.com/demos/aa.php
+
+
 Library Dependencies
 ====================
 For html scrapping it use .net library Html Agility Pack 
