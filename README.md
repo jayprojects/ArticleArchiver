@@ -9,7 +9,8 @@ Demo
 ===================
 A demo is available here 
 http://syskite.com/demos/aa.php
-the php demo page is just a web client. The actual application runs as executable at the backend.
+
+The php demo page is just an example web client. The actual application runs as executable at the backend.
 
 
 Library Dependencies
