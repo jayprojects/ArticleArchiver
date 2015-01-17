@@ -5,6 +5,10 @@ This is a library for extracting online news article. It parse Title, author, da
 
 it was written to work for all website regardless of structures. 
 
+Library Dependencies
+====================
+For html scrapping it use .net library Html Agility Pack 
+http://htmlagilitypack.codeplex.com/
 
 LICENSE
 ====================
