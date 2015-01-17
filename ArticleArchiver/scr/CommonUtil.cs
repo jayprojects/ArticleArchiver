@@ -46,10 +46,16 @@ namespace ArticleArchiver
         {
             if (null != str && str.Length > 0)
             {
+                str = str.Replace("“", "\"");
+                str = str.Replace("”", "\"");
+                str = str.Replace("’", "'");
+                str = Regex.Replace(str, @"[\u0000-\u001F]", " ");
+                str = Regex.Replace(str, @"[\u00FF-\uFFFF]", " ");
                 Regex regex = new Regex(@"[ ]{2,}", RegexOptions.None);
-                str = str.Replace("\r\n", " ");
-                str = str.Replace("\n", " ");
-                str = str.Replace("\t", " ");
+                //str = str.Replace("\r\n", " ");
+                //str = str.Replace("\n", " ");
+                //str = str.Replace("\t", " ");
+                
                 str = regex.Replace(str, @" ").Trim();
             }
             return str;

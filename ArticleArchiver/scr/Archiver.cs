@@ -87,7 +87,7 @@ namespace ArticleArchiver
 
             if (!CommonUtil.empty(a.ArticleHtml))
 
-                ac.ArticleHtml = a.ArticleHtml;
+                ac.ArticleHtml = CommonUtil.removeWhiteSpace(a.ArticleHtml);
             else
                 ac.ArticleHtml = "";
 
