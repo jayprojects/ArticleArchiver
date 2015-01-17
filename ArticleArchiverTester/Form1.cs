@@ -31,14 +31,7 @@ namespace ArticleArchiverTester
         {
             //richTextBox1.Text = typeof(HtmlAgilityPack.HtmlDocument).Assembly.FullName;
 
-            int i = (int)'a';
-            i = (int)' ';
-            i = (int)'€';
-            i = (int)'ƒ';
-            i = (int)'„';
-            i = (int)'…';
-            i = (int)'•';
-
+            
         }
     }
 }
