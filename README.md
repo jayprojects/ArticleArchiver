@@ -3,7 +3,7 @@ Scrap online news article and create clean achievable object
 
 This is a library for extracting online news article. It parse Title, author, date, body text form given URL
 
-it was written to work for all website regardless of structures. 
+it was written to work with all website regardless of structures. 
 
 Demo
 ===================
