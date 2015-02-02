@@ -1,5 +1,5 @@
 # ArticleArchiver
-Scrap online news article and created clean achievable object
+Scrap online news article and create clean achievable object
 
 This is a library for extracting online news article. It parse Title, author, date, body text form given URL
 
