@@ -1,9 +1,7 @@
 # ArticleArchiver
-Scrap online news article and create clean achievable object
+Given a URL of arbitrary source, Scrap & parse online news article and create an archivable object. Classify and tag content of the obtained HTML page in order to extract Title, author, date, body text.
 
-This is a library for extracting online news article. It parse Title, author, date, body text form given URL
-
-it was written to work with all website regardless of structures. 
+It is written to work with all website regardless of content and structures of the html page. 
 
 Demo
 ===================
